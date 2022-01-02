@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { StyledHeading } from './Heading.style';
-const Heading = ({ children, h1, h2, h3, h4, h5, h6, color }) => {
+const Heading = ({ children, h1, h2, h3, h4, h5, h6, color, shadow }) => {
   return (
     <StyledHeading
       h1={h1}
@@ -11,6 +11,7 @@ const Heading = ({ children, h1, h2, h3, h4, h5, h6, color }) => {
       h5={h5}
       h6={h6}
       color={color}
+      shadow={shadow}
     >
       {children}
     </StyledHeading>

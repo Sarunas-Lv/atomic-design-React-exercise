@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledInput = styled.input`
-  margin-top: 0.7em;
+  margin: ${(props) => props.margin};
   border: none;
   background-color: ${(props) =>
     props.theme === 'dark'
@@ -10,11 +10,9 @@ export const StyledInput = styled.input`
       ? 'var(--white)'
       : 'var(--white)'};
 
-  width: 624px;
-  height: 72px;
+  min-width: 544px;
+  height: 26px;
   padding: 23px 40px;
-  max-width: 624px;
-  max-height: 72px;
   font-size: 16px;
   color: ${(props) =>
     props.theme === 'dark'

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledSubmit = styled.input`
-  margin-top: 0.7em;
+  margin: ${(props) => props.margin};
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 40px;

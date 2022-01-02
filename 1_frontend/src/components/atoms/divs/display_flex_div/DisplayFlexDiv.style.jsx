@@ -2,6 +2,11 @@ import styled from 'styled-components';
 
 export const StyledDisplayFlexDiv = styled.div`
   display: inline-block;
+  box-sizing: border-box;
+
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
+  
   display: flex;
   flex-direction: ${(props) =>
     props.direction === 'reverse'
@@ -38,4 +43,5 @@ export const StyledDisplayFlexDiv = styled.div`
       ? 'flex-end'
       : 'strech'};
   gap: ${(props) => props.gap};
+  background-color: ${(props) => `var(--${props.color})`};
 `;

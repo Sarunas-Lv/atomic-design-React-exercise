@@ -2,7 +2,8 @@
 
 #---- FRONTEND ----
 # dependencies
-/1_frontend/node_modules
+/1_frontend/node_modules/
+
 /1_frontend/.pnp
 .pnp.js
 

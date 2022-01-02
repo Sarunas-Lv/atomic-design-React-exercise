@@ -19,5 +19,7 @@ export const StyledHeading = styled.h1`
       ? '20px'
       : '64px'};
   font-weight: bolder;
-  color: ${(props) => `var(--${props.color})`}
+  color: ${(props) => `var(--${props.color})`};
+  text-shadow: ${(props) =>
+    props.shadow ? '0px 4px 4px rgba(0, 0, 0, 0.25)' : 'none'};
 `;

@@ -1,6 +1,16 @@
 import React from 'react';
 import { StyledDisplayFlexDiv } from './DisplayFlexDiv.style';
-const DisplayFlexDiv = ({ children, direction, wrap, justify, align, gap }) => {
+const DisplayFlexDiv = ({
+  children,
+  direction,
+  wrap,
+  justify,
+  align,
+  gap,
+  color,
+  width,
+  height,
+}) => {
   return (
     <StyledDisplayFlexDiv
       direction={direction}
@@ -8,6 +18,9 @@ const DisplayFlexDiv = ({ children, direction, wrap, justify, align, gap }) => {
       justify={justify}
       align={align}
       gap={gap}
+      color={color}
+      width={width}
+      height={height}
     >
       {children}
     </StyledDisplayFlexDiv>
