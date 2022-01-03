@@ -3,10 +3,12 @@ import styled from 'styled-components';
 export const StyledDisplayFlexDiv = styled.div`
   display: inline-block;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 
   width: ${(props) => props.width};
   height: ${(props) => props.height};
-  
+
   display: flex;
   flex-direction: ${(props) =>
     props.direction === 'reverse'

@@ -39,9 +39,9 @@ import {
 import React from 'react';
 import { StyledLogos } from './Logos.style';
 
-const Logos = ({ children, size, color }) => {
+const Logos = ({ children, size, color, spacing }) => {
   return (
-    <StyledLogos size={size} color={color}>
+    <StyledLogos size={size} color={color} spacing={spacing}>
       {children}
     </StyledLogos>
   );

@@ -11,6 +11,7 @@ const CircleDiv = ({
   right,
   zIndex,
   opacity,
+  action,
 }) => {
   return (
     <StyledDefaultCircle
@@ -23,6 +24,8 @@ const CircleDiv = ({
       right={right}
       zIndex={zIndex}
       opacity={opacity}
+      action={action}
+      onClick={() => action()}
     >
       {children}
     </StyledDefaultCircle>

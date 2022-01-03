@@ -22,4 +22,6 @@ export const StyledDefaultCircle = styled.div`
   left: ${(props) => props.left};
   right: ${(props) => props.right};
   z-index: ${(props) => props.zIndex};
+
+  cursor: ${(props) => (props.action ? 'pointer' : 'auto')};
 `;

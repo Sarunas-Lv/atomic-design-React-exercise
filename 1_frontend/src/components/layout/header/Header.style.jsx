@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
+  max-width: 1920px;
   margin: 0;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@ export const StyledHeader = styled.header`
   background-color: var(--white);
 `;
 export const StyledPageLogoDiv = styled.div`
-  width: 50%;
+  width: 40%;
   display: flex;
   align-items: center;
 `;
