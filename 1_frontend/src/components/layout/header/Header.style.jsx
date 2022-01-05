@@ -8,11 +8,11 @@ export const StyledHeader = styled.header`
   justify-content: center;
   align-items: center;
   height: 90px;
-  gap: 10%;
+  gap: 192px;
   background-color: var(--white);
 `;
 export const StyledPageLogoDiv = styled.div`
-  width: 40%;
+  width: 768px;
   display: flex;
   align-items: center;
 `;

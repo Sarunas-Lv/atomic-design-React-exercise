@@ -3,8 +3,7 @@ import React from 'react';
 import DisplayFlexDiv from '../../../atoms/divs/display_flex_div/DisplayFlexDiv';
 import Heading from '../../../atoms/text/heading/Heading';
 import Logos from '../../../atoms/text/logos/Logos';
-import Paragraph from '../../../atoms/text/paragraph/Paragraph';
-import Title from '../../../atoms/text/title/Title';
+import FooterTwoPartTextElement from '../footer_two_part_text/FooterTwoPartTextElement';
 // react-icons Imports
 import { BsFacebook, BsTwitter, BsLinkedin, BsInstagram } from 'react-icons/bs';
 const FooterTop = () => {
@@ -18,7 +17,7 @@ const FooterTop = () => {
       >
         {/* Left */}
         <DisplayFlexDiv
-          width='50%'
+          width='650px'
           height='222px'
           direction='column'
           justify='center'
@@ -36,38 +35,24 @@ const FooterTop = () => {
         {/* Left */}
         {/* Right */}
         <DisplayFlexDiv
-          width='50%'
+          width='650px'
           height='100%'
           direction='column'
           gap='32px'
           justify='center'
         >
-          <DisplayFlexDiv height='76px' direction='column' gap='8px'>
-            <Paragraph opacity={0.6} color='white' p1={true}>
-              Help line number
-            </Paragraph>
-            <Title title02={true} color='white'>
-              1800 266 24 52
-            </Title>
-          </DisplayFlexDiv>
-
-          <DisplayFlexDiv height='76px' direction='column' gap='8px'>
-            <Paragraph opacity={0.6} color='white' p1={true}>
-              Adress
-            </Paragraph>
-            <Title title02={true} color='white'>
-              NH 234 Public Square San Francisco 65368
-            </Title>
-          </DisplayFlexDiv>
-
-          <DisplayFlexDiv height='76px' direction='column' gap='8px'>
-            <Paragraph opacity={0.6} color='white' p1={true}>
-              We are open
-            </Paragraph>
-            <Title title02={true} color='white'>
-              Monday to Friday 9:00 AM to  10:00  AM
-            </Title>
-          </DisplayFlexDiv>
+          <FooterTwoPartTextElement
+            text1={'Help line number'}
+            text2={'1800 266 24 52'}
+          />
+          <FooterTwoPartTextElement
+            text1={'Adress'}
+            text2={'NH 234 Public Square San Francisco 65368'}
+          />
+          <FooterTwoPartTextElement
+            text1={'We are open'}
+            text2={'Monday to Friday 9:00 AM to  10:00  AM'}
+          />
         </DisplayFlexDiv>
         {/* Right */}
       </DisplayFlexDiv>

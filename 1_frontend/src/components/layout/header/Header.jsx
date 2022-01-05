@@ -26,7 +26,12 @@ const Header = () => {
         </StyledPageLogoDiv>
         {/* LOGO SECTION */}
         {/* NAVBAR SECTION */}
-        <DisplayFlexDiv gap='32px' width='40%' justify='center' align='center'>
+        <DisplayFlexDiv
+          gap='32px'
+          width='768px'
+          justify='center'
+          align='center'
+        >
           <NavBar />
           <BorderDiv height='42px' left='2px solid var(--gray)' />
           {/* CONTACT SECTION */}

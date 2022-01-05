@@ -1,10 +1,7 @@
 import React from 'react';
 // Component Imports
 import DisplayFlexDiv from '../../../atoms/divs/display_flex_div/DisplayFlexDiv';
-import Heading from '../../../atoms/text/heading/Heading';
-import Logos from '../../../atoms/text/logos/Logos';
 import Paragraph from '../../../atoms/text/paragraph/Paragraph';
-import Title from '../../../atoms/text/title/Title';
 import WHTLOGO from '../../../../assets/images/page_logo/logo2.png';
 import { StyledBottomogoDiv } from './FooterBottom.style';
 import FooterUl from '../footer_ul/FooterUl';
@@ -32,7 +29,7 @@ const FooterBottom = () => {
         </StyledBottomogoDiv>
         <FooterUl />
         <Paragraph opacity={0.6} p2={true} color='white'>
-          &Copyright
+          &copy; Copyright Finsweet {new Date().getFullYear()}
         </Paragraph>
       </DisplayFlexDiv>
     </DisplayFlexDiv>
