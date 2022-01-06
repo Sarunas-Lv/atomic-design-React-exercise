@@ -1,10 +1,16 @@
 import React from 'react';
+// Style Import
+import { StyledDiv } from './BlueCircleDiv.style';
+// Components Import
 import CircleDiv from '../default_circle/CircleDiv';
+import Title from '../../../text/title/Title';
 const BlueCircleDiv = ({ children }) => {
   return (
-    <div>
+    <StyledDiv>
       <CircleDiv color='blue' size='72px' relative={true} top='20px' zIndex='1'>
-        {children}
+        <Title color='white' title01={true}>
+          {children}
+        </Title>
       </CircleDiv>
       <CircleDiv
         color='white'
@@ -15,7 +21,7 @@ const BlueCircleDiv = ({ children }) => {
         zIndex='2'
         opacity={true}
       ></CircleDiv>
-    </div>
+    </StyledDiv>
   );
 };
 
