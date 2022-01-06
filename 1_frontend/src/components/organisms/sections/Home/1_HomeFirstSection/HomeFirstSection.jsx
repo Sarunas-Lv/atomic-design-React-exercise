@@ -12,7 +12,6 @@ import RelativeDiv from '../../../../molecules/divs/relative_div/RelativeDiv';
 import CircleDiv from '../../../../atoms/divs/circle_divs/default_circle/CircleDiv';
 import Title from '../../../../atoms/text/title/Title';
 import Paragraph from '../../../../atoms/text/paragraph/Paragraph';
-import Caption from '../../../../atoms/text/caption/Caption';
 import StarRating from '../../../../molecules/home_page/star_rating/StarRating';
 const HomeFirstSection = ({ color }) => {
   return (

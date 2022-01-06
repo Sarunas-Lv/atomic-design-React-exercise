@@ -14,10 +14,12 @@ export const StyledInput = styled.input`
   height: 26px;
   padding: 23px 40px;
   font-size: 16px;
-  color: ${(props) =>
-    props.theme === 'dark'
-      ? 'var(--black)'
-      : props.theme === 'light'
-      ? 'var(--gray)'
-      : 'var(--gray)'}; ;
+  &::placeholder {
+    color: ${(props) =>
+      props.theme === 'dark'
+        ? 'var(--black)'
+        : props.theme === 'light'
+        ? 'var(--gray)'
+        : 'var(--gray)'};
+  }
 `;

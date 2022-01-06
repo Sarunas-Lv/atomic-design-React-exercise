@@ -25,7 +25,7 @@ const CircleDiv = ({
       zIndex={zIndex}
       opacity={opacity}
       action={action}
-      onClick={() => action()}
+      onClick={action ? () => action() : console.log('blep')}
     >
       {children}
     </StyledDefaultCircle>
