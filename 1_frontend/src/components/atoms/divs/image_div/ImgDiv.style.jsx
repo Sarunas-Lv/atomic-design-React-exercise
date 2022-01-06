@@ -7,8 +7,7 @@ export const StyledImg = styled.div`
   background-image: url(${(props) => props.url});
   background-repeat: no-repeat;
 
-  object-fit: ${(props) =>
-    props.contain ? 'contain' : props.cover ? 'cover' : 'contain'};
+  background-size: ${(props) => (props.bgs ? props.bgs : 'contain')};
 
   background-position: ${(props) => props.position};
 `;

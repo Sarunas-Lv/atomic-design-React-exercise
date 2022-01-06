@@ -6,6 +6,7 @@ import Footer from '../layout/footer/Footer';
 import HomeFirstSection from '../organisms/sections/Home/1_HomeFirstSection/HomeFirstSection';
 import HomeFormSection from '../organisms/sections/Home/2_HomeFormSection/HomeFormSection';
 import HomeProcessSection from '../organisms/sections/Home/3_HomeProcessSection/HomeProcessSection';
+import HomeGetInTouchBanner from '../organisms/sections/Home/HomeGetInTouchBanner/HomeGetInTouchBanner';
 const HomePage = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const HomePage = () => {
         <HomeFirstSection />
         <HomeFormSection />
         <HomeProcessSection />
+        <HomeGetInTouchBanner />
       </Main>
       <Footer />
     </>

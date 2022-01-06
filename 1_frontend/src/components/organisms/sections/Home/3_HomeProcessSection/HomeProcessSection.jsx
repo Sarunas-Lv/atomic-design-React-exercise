@@ -6,10 +6,7 @@ import Heading from '../../../../atoms/text/heading/Heading';
 import Paragraph from '../../../../atoms/text/paragraph/Paragraph';
 import Button from '../../../../atoms/buttons/common_button/Button';
 import DisplayFlexDiv from '../../../../atoms/divs/display_flex_div/DisplayFlexDiv';
-import BlueCircleDiv from '../../../../atoms/divs/circle_divs/blue_circle/BlueCircleDiv';
-import BorderDiv from '../../../../atoms/divs/border_div/BorderDiv';
 import GetQuoteComponent from '../../../../molecules/home_page/get_quote_organism/GetQuoteComponent';
-import Title from '../../../../atoms/text/title/Title';
 const HomeProcessSection = () => {
   return (
     <StyledSection>
@@ -40,16 +37,7 @@ const HomeProcessSection = () => {
           <Button color='red'>Learn More</Button>
         </DisplayFlexDiv>
         {/* Right */}
-        <DisplayFlexDiv height='527px' gap='24px'>
-          <DisplayFlexDiv direction='column' align='center'>
-            <BlueCircleDiv>01</BlueCircleDiv>
-            <BorderDiv height='42px' left='2px dashed var(--red)' />
-            <BlueCircleDiv>02</BlueCircleDiv>
-            <BorderDiv height='42px' left='2px dashed var(--red)' />
-            <BlueCircleDiv>03</BlueCircleDiv>
-          </DisplayFlexDiv>
-          <GetQuoteComponent />
-        </DisplayFlexDiv>
+        <GetQuoteComponent />
       </DisplayFlexDiv>
     </StyledSection>
   );

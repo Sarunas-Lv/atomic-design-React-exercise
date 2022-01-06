@@ -4,7 +4,6 @@ import { StyledHomeForm } from './HomePageForm.style';
 // Components Imports
 import FormInput from '../../../atoms/form/form_input/FormInput';
 import FormSubmit from '../../../atoms/form/submit_button/FormSubmit';
-import DisplayFlexDiv from '../../../atoms/divs/display_flex_div/DisplayFlexDiv';
 const HomePageForm = () => {
   return (
     <StyledHomeForm onSubmit={(e) => e.preventDefault()}>

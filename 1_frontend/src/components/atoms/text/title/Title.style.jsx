@@ -8,4 +8,5 @@ export const StyledTitle = styled.p`
     props.title01 ? '32px' : props.title02 ? '24px' : '32px'};
   font-weight: bolder;
   color: ${(props) => `var(--${props.color})`};
+  opacity: ${(props) => props.opacity};
 `;
