@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
   max-width: 1920px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   justify-content: center;

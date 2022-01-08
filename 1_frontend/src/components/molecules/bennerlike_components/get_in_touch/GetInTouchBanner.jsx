@@ -21,7 +21,7 @@ const GetInTouchBanner = () => {
         align='center'
         gap='64px'
       >
-        <DisplayFlexDiv height='fit-content' width='569px' direction='column'>
+        <DisplayFlexDiv height='fit-content' width='79%' direction='column'>
           <Heading h3={true} color='white'>
             Get in touch with us for{' '}
           </Heading>
@@ -30,7 +30,7 @@ const GetInTouchBanner = () => {
             your service related query
           </Heading>
         </DisplayFlexDiv>
-        <DisplayFlexDiv width='569px'>
+        <DisplayFlexDiv width='79%'>
           <Button
             color={'black'}
             action={() => (window.location.herf = 'http://localhost:3000')}

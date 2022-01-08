@@ -7,6 +7,7 @@ import HomeFirstSection from '../organisms/sections/Home/1_HomeFirstSection/Home
 import HomeFormSection from '../organisms/sections/Home/2_HomeFormSection/HomeFormSection';
 import HomeProcessSection from '../organisms/sections/Home/3_HomeProcessSection/HomeProcessSection';
 import HomeGetInTouchBanner from '../organisms/sections/Home/HomeGetInTouchBanner/HomeGetInTouchBanner';
+import HomeBrandsSection from '../organisms/sections/Home/6_HomeBrandsSection/HomeBrandsSection';
 const HomePage = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const HomePage = () => {
         <HomeFormSection />
         <HomeProcessSection />
         <HomeGetInTouchBanner />
+        <HomeBrandsSection />
       </Main>
       <Footer />
     </>

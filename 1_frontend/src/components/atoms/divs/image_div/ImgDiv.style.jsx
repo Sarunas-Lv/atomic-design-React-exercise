@@ -10,4 +10,10 @@ export const StyledImg = styled.div`
   background-size: ${(props) => (props.bgs ? props.bgs : 'contain')};
 
   background-position: ${(props) => props.position};
+
+  transition: all .2s ease-in-out;
+
+  &:hover{
+    transform: ${props=>props.grow?'scale(1.1)':'none'};
+  }
 `;
