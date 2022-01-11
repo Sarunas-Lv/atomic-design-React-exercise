@@ -5,10 +5,6 @@ import CircleDiv from '../../../../atoms/divs/circle_divs/default_circle/CircleD
 import Logos from '../../../../atoms/text/logos/Logos';
 import Title from '../../../../atoms/text/title/Title';
 import Paragraph from '../../../../atoms/text/paragraph/Paragraph';
-// react-icons Import
-import { MdEngineering } from 'react-icons/md';
-import { GiGears, GiGearHammer } from 'react-icons/gi';
-import { AiFillDollarCircle } from 'react-icons/ai';
 const TakingServicing = ({ title, p, logo }) => {
   return (
     <DisplayFlexDiv gap='16px' justify='center' align='center'>

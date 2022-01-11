@@ -4,7 +4,7 @@ export const StyledDisplayFlexDiv = styled.div`
   display: inline-block;
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: ${props=>props.padding?props.padding:0};
 
   width: ${(props) => props.width};
   height: ${(props) => props.height};

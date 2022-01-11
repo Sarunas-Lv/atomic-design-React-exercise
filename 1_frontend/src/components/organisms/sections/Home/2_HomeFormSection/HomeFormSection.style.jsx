@@ -10,6 +10,7 @@ export const StyledFormSection = styled.section`
   justify-content: center;
   align-items: center;
 
+  min-width: 1320px;
   max-width: 1920px;
   height: 894px;
 `;

@@ -5,9 +5,9 @@ import { StyledHomeGetInTouchBanner } from './HomeGetInTouchBanner.style';
 import StaticsBanner from '../../../../molecules/bennerlike_components/statistics/StaticsBanner';
 import GetInTouchBanner from '../../../../molecules/bennerlike_components/get_in_touch/GetInTouchBanner';
 
-const HomeGetInTouchBanner = ({color}) => {
+const HomeGetInTouchBanner = () => {
   return (
-    <StyledHomeGetInTouchBanner color={color}>
+    <StyledHomeGetInTouchBanner>
       <GetInTouchBanner />
       <StaticsBanner />
     </StyledHomeGetInTouchBanner>

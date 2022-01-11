@@ -6,7 +6,7 @@ import FormInput from '../../../atoms/form/form_input/FormInput';
 import FormSubmit from '../../../atoms/form/submit_button/FormSubmit';
 const HomePageForm = () => {
   return (
-    <StyledHomeForm onSubmit={(e) => e.preventDefault()}>
+    <StyledHomeForm onSubmit={(e) => {e.preventDefault()}}>
       <FormInput
         type='text'
         text='Enter your location'

@@ -53,6 +53,7 @@ const HomeFormSection = () => {
           height='608px'
           direction='column'
           gap='32px'
+          padding='10px 0px 0px 0px'
         >
           <Heading h3={true}>Get a quote for the car service</Heading>
           <HomePageForm />

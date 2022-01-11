@@ -10,6 +10,7 @@ const DisplayFlexDiv = ({
   color,
   width,
   height,
+  padding
 }) => {
   return (
     <StyledDisplayFlexDiv
@@ -21,6 +22,7 @@ const DisplayFlexDiv = ({
       color={color}
       width={width}
       height={height}
+      padding={padding}
     >
       {children}
     </StyledDisplayFlexDiv>

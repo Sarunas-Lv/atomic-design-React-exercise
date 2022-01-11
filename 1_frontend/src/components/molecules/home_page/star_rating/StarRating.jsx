@@ -13,6 +13,9 @@ import DisplayFlexDiv from '../../../atoms/divs/display_flex_div/DisplayFlexDiv'
 import Title from '../../../atoms/text/title/Title';
 import Caption from '../../../atoms/text/caption/Caption';
 const StarRating = ({ top, left, right, bottom }) => {
+   // Hooks
+    // -State
+    // --local
   const [rating, setRating] = useState(4.5);
   const [hover, setHover] = useState(rating);
   return (
